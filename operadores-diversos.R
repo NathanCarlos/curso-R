@@ -13,8 +13,8 @@ myarray3 = 1:10
 print(n1 %in% myarray3) #Para verificar se o 8 está nos números de 1 a 10
 print(n2 %in% myarray3)
 
-matriz = matrix(c(2,6,5,1,18,4), nrow = 2, ncol = 3, byrow = TRUE)
+m = matrix(c(2,6,5,1,18,4), nrow = 2, ncol = 3, byrow = TRUE)
 
-t = M %*% t(matriz)
+t = m %*% t(m)
 
 print(t)
