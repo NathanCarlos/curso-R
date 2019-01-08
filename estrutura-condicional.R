@@ -9,3 +9,7 @@ if(is.integer(x)){
   msg = paste("Número x não é inteiro, seu valor é", x, sep = ': ')
   print(msg)  
 }
+
+x = 2
+posicao = switch(x, "1°", "2°", "3°", "4°")
+print(posicao)
